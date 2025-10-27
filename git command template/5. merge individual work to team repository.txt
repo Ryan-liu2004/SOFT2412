@@ -1,0 +1,14 @@
+git checkout master
+git fetch hliu0010
+
+git merge --no-ff remotes/hliu0010/feature/CurrencyConverter/convert -m "Merge feature/CurrencyConverter/convert into master"
+
+git merge --no-ff remotes/hliu0010/feature/DataValidator/isValidCurrency -m "Merge feature/DataValidator/isValidCurrency into master"
+
+git merge --no-ff remotes/hliu0010/feature/RateDisplay/showAllRatesTable -m "Merge feature/RateDisplay/showAllRatesTable into master"
+
+git merge --no-ff remotes/hliu0010/feature/UserInterface/start -m "Merge feature/UserInterface/start into master"
+
+git push origin master
+
+pause

@@ -1,0 +1,6 @@
+git fetch upstream 
+git checkout master
+git merge --no-ff upstream/master -m "Merge bless repository"
+git push origin master
+
+pause

@@ -1,0 +1,7 @@
+git checkout -b feature/UserInterface
+git add src/main/java/UserInterface.java
+git commit -m "Modify error"
+git checkout master
+git merge --no-ff feature/UserInterface -m "Merge feature/UserInterface into master"
+
+pause

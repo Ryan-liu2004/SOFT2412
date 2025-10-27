@@ -1,0 +1,9 @@
+git clone https://github.sydney.edu.au/SOFT2412-COMP9412-2025s2/A1-T09-05.git
+
+cd A1-T09-05
+
+git remote add hliu0010 https://github.sydney.edu.au/SOFT2412-COMP9412-2025s2/A1-T09-05-hliu0010.git
+git config user.name  "Haochen Liu-IM"
+git config user.email "hliu0010@uni.sydney.edu.au"
+
+pause

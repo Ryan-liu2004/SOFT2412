@@ -1,0 +1,28 @@
+git branch feature/CurrencyConverter/convert
+git branch feature/DataValidator/isValidCurrency
+git branch feature/RateDisplay/showAllRatesTable
+git branch feature/UserInterface/start
+
+git checkout feature/CurrencyConverter/convert
+git add src/main/java/CurrencyConverter.java
+git commit -m "Initial implementation on calculate convert amount in the convert() in CurrencyConverter.java"
+git push -u origin feature/CurrencyConverter/convert
+
+git checkout feature/DataValidator/isValidCurrency
+git add src/main/java/DataValidator.java
+git commit -m "Add isValidCurrency() in DataValidator.java to validate currency codes"
+git push -u origin feature/DataValidator/isValidCurrency
+
+git checkout feature/RateDisplay/showAllRatesTable
+git add src/main/java/RateDisplay.java
+git commit -m "Implement showAllRatesTable() in RateDisplay.java to display exchange rates in a formatted table"
+git push -u origin feature/RateDisplay/showAllRatesTable
+
+git checkout feature/UserInterface/start
+git add src/main/java/UserInterface.java
+git commit -m "Initialize UserInterface.java with start() screen and basic navigation to core features"
+git push -u origin feature/UserInterface/start
+
+git checkout master
+
+pause
